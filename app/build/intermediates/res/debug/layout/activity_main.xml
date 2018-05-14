@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Game Advisor"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:textColor="#000000" />
+<TableRow
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/emerald"/>
+    <ImageView
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:src="@drawable/zelda"/>
+    <ImageView
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:src="@drawable/mog"/>
+    </TableRow>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:divider="#ffffff">
+    </ListView>
+</LinearLayout>
+<!-- From: file:/C:/Users/Owner/AndroidStudioProjects/TheGameAdvisor/app/src/main/res/layout/activity_main.xml -->

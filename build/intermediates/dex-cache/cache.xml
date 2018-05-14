@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Owner\AndroidStudioProjects\TheGameAdvisor\app\libs\jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="C:\Users\Owner\AndroidStudioProjects\TheGameAdvisor\app\build\intermediates\pre-dexed\debug\jsoup-1.8.2-b6970a2a2568a1a9f0b47aed5f74ed1a60066a20.jar" />
+    </item>
+
+</items>

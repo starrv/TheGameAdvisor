@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Game Advice"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:editable="false"
+        android:textColor="#000000" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="20dp"
+        android:id="@+id/add"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Title"
+    android:textSize="20dp"
+        android:editable="false"
+        android:textColor="#000000" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/title"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:editable="true"
+        android:text="enter title here"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advice"
+        android:textSize="20dp"
+        android:editable="false"
+        android:textColor="#000000" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/advise"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:editable="true"
+        android:text="enter advise here"/>
+
+</LinearLayout>
